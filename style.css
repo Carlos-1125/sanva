@@ -31,7 +31,7 @@ body {
     width: 100%; /* Asegura que el contenedor no se desborde */
     padding: 20px;
     color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
-    margin-bottom: 40px; /* Ajusta este valor para mover el contenedor hacia arriba desde el borde inferior */
+    margin-bottom: 30px; /* Ajusta este valor para mover el contenedor hacia arriba desde el borde inferior */
     /*background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
     border-radius: 10px; /* Opcional: Agrega bordes redondeados al contenedor */
 }
