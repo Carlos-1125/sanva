@@ -9,16 +9,16 @@ body {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #ffe5e5;
-    background-image: url('images/ara.jpeg'); /* Cambia 'images/fondo.jpg' a la ruta de tu imagen */
+    background-image: url('images/ara.jpeg'); /* Cambia 'images/ara.jpeg' a la ruta de tu imagen */
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     margin: 0; /* Elimina los márgenes predeterminados */
     font-family: Arial, sans-serif; /* Opcional: Establece una fuente predeterminada */
+    display: flex; /* Usamos flexbox en el body para el layout */
+    justify-content: center; /* Centra el contenedor horizontalmente */
+    align-items: flex-end; /* Alinea el contenedor en la parte inferior */
 }
 
 .container {
@@ -28,10 +28,10 @@ body {
     align-items: center;
     gap: 20px;
     max-width: 500px;
-    margin: 20px;
-    text-align: center;
-    color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
+    width: 100%; /* Asegura que el contenedor no se desborde */
     padding: 20px;
+    color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
 }
 
 .text-with-border {
@@ -42,6 +42,7 @@ body {
         -1px 1px 0 #000,
         1px 1px 0 #000; /* Color del borde */
 }
+
 .container .tenor-gif-embed {
     display: flex;
     max-width: 200px;
@@ -58,6 +59,5 @@ body {
     background: #fff;
     padding: 10px 25px;
     border-radius: 8px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
-
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0, 0.3);
 }
