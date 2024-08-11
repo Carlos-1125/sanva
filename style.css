@@ -18,7 +18,7 @@ body {
     font-family: Arial, sans-serif; /* Opcional: Establece una fuente predeterminada */
     display: flex; /* Usamos flexbox en el body para el layout */
     justify-content: center; /* Centra el contenedor horizontalmente */
-    align-items: flex-end; /* Alinea el contenedor en la parte inferior */
+    align-items: center; /* Centra el contenedor verticalmente en el medio */
 }
 
 .container {
@@ -32,6 +32,7 @@ body {
     padding: 20px;
     color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
     /*background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+    border-radius: 10px; /* Opcional: Agrega bordes redondeados al contenedor */
 }
 
 .text-with-border {
