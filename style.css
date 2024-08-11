@@ -42,11 +42,13 @@ body {
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000; /* Color del borde */
+    margin-bottom: 5px; /* Reduce el espacio debajo del texto */
 }
 
 .container .tenor-gif-embed {
     display: flex;
     max-width: 200px;
+    margin-top: 0; /* Ajusta este valor para reducir el espacio arriba del GIF */
 }
 
 .container .btn {
