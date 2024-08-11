@@ -26,14 +26,14 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     max-width: 500px;
     width: 100%; /* Asegura que el contenedor no se desborde */
-    padding: 10px;
+    padding: 5px;
     color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
     margin-bottom: 30px; /* Ajusta este valor para mover el contenedor hacia arriba desde el borde inferior */
     /*background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
-    border-radius: 10px; /* Opcional: Agrega bordes redondeados al contenedor */
+    border-radius: 5px; /* Opcional: Agrega bordes redondeados al contenedor */
 }
 .text-with-border {
     color: white; /* Color del texto */
