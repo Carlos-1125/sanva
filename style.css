@@ -19,7 +19,6 @@ body {
     display: flex; /* Usamos flexbox en el body para el layout */
     justify-content: center; /* Centra el contenedor horizontalmente */
     align-items: flex-end; /* Alinea el contenedor en la parte inferior */
-    padding-bottom: 20px; /* Ajusta este valor para crear un espacio entre el contenido y el borde inferior */
 }
 
 .container {
@@ -32,10 +31,10 @@ body {
     width: 100%; /* Asegura que el contenedor no se desborde */
     padding: 20px;
     color: white; /* Cambia el color del texto si es necesario para que contraste con el fondo */
+    margin-bottom: 30px; /* Ajusta este valor para mover el contenedor hacia arriba desde el borde inferior */
     /*background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
     border-radius: 10px; /* Opcional: Agrega bordes redondeados al contenedor */
 }
-
 .text-with-border {
     color: white; /* Color del texto */
     text-shadow: 
