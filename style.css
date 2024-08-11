@@ -18,8 +18,8 @@ body {
     font-family: Arial, sans-serif; /* Opcional: Establece una fuente predeterminada */
     display: flex; /* Usamos flexbox en el body para el layout */
     justify-content: center; /* Centra el contenedor horizontalmente */
-    align-items: flex-start; /* Cambia esto a 'flex-start' para alinear al inicio del contenedor */
-    padding-top: 20vh; /* Ajusta este valor para empujar el contenido hacia abajo */
+    align-items: flex-end; /* Alinea el contenedor en la parte inferior */
+    padding-bottom: 20px; /* Ajusta este valor para crear un espacio entre el contenido y el borde inferior */
 }
 
 .container {
